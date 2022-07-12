@@ -8,7 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
-    lateinit var diceImage:ImageView
+    lateinit var diceImage:ImageView //var = value can be changed, not a constant
     lateinit var numberText: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, "Roll !",
             Toast.LENGTH_SHORT).show()
 
-        val randomNum = (1..6).random()
+        val randomNum = (1..6).random() //val is a constant, value cannot be change
 //        val diceImage: ImageView = findViewById(R.id.diceImg)
         val imgSrc = when(randomNum){
             1 -> R.drawable.dice_1
