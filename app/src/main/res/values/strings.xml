@@ -3,4 +3,6 @@
     <string name="rollButton">Roll</string>
     <string name="numberText">numberText</string>
     <string name="rules">Dice 10,000 is the name of a family dice game played with 6 dice, it is very similar to farkle. It also goes by other names, including Zilch, Zilchers, Foo, Boxcar, Bogus, Zach’s Dice Game, and Crap Out.</string>
+    <string name="playerName" />
+    <string name="updateButton">Update</string>
 </resources>
